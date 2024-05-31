@@ -1,0 +1,306 @@
+{
+    "basic_info": {
+      "description_header": "Hi!",
+      "description": "I'm Shanmukha Sri Harsha Anivilla, a dedicated computer science graduate from San Jose State University. I specialize in full stack development with expertise in front-end frameworks like React, Angular, and Vue, as well as back-end technologies such as Java, Spring Boot, and Node.js. My portfolio showcases diverse projects and professional experiences, highlighting my skills in creating robust, scalable web applications.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience",
+        "expertise": "Expertise",
+        "education": "Education"
+      }
+    },
+    "projects": [
+      {
+        "title": "PikShare",
+        "startDate": "2023",
+        "description": "PikShare is an image-sharing social media platform that I developed using PostgreSQL, Express.js, TypeScript, Node.js, and TailwindCSS. It enables users to post, like, and comment on images, with secure authentication and media storage integrated with Amazon S3. The application’s backend is optimized using Prisma ORM, demonstrating my skills in creating scalable, user-centric web applications.",
+        "images": [
+          "images/portfolio/pikshare/p1.png",
+          "images/portfolio/pikshare/p2.png"
+        ],
+        "url": "https://github.com/shanmukha-harsha/pikshare-image-sharing",
+        "technologies": [
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "Postgres"
+          },
+          {
+            "class": "devicon-tailwindcss-plain",
+            "name": "TailwindCSS"
+          }
+        ]
+      },
+      {
+        "title": "Wordle Puzzle Solver",
+        "startDate": "2024",
+        "description": "The Wordle Puzzle Solver is an interactive application designed to help users solve Wordle puzzles, developed using Python, Flask, JavaScript, React.js, and MongoDB. It features secure REST API calls, user session management with OAuth and JWT, and a user-friendly interface based on React.js and TailwindCSS. This project showcases my ability to integrate full-stack technologies to enhance user experiences and improve game-solving efficiency.",
+        "images": [
+          "images/portfolio/wordle-solver/p1.png",
+          "images/portfolio/wordle-solver/p2.png",
+          "images/portfolio/wordle-solver/p3.png",
+          "images/portfolio/wordle-solver/p4.png"
+        ],
+        "url": "https://elaborate-daffodil-ae8da9.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-flask-plain",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Inventory Management",
+        "startDate": "2022",
+        "description": "The Inventory Management System is a robust web application developed to optimize inventory tracking and management, using Java, Spring Boot, and Spring Data JPA. I enhanced system performance by optimizing database operations with Spring JDBC and ensured high reliability with 95% test coverage using JUnit and Mockito. This project demonstrates my expertise in building scalable, efficient systems that improve business operations.",
+        "images": [
+          "images/portfolio/inventorymanagement/p1.png",
+          "images/portfolio/inventorymanagement/p2.png"
+        ],
+        "url": "https://github.com/shanmukha-harsha/Inventory-Management-System",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Wheat Disease Detection",
+        "startDate": "2024",
+        "description": "The Wheat Disease Detection project utilizes drone remote sensing technology, employing YOLO and VGG19 models, to identify and classify diseases in wheat crops from aerial images with an accuracy of 94% and a mean Average Precision (mAP) of 0.91. This approach enhances precision agriculture by enabling rapid, large-scale detection of potential issues, significantly improving crop management and yield. My work demonstrates an innovative application of deep learning and computer vision techniques in agricultural technology.",
+        "images": [
+          "images/portfolio/wheatdisease/p1.png",
+          "images/portfolio/wheatdisease/p2.png",
+          "images/portfolio/wheatdisease/p3.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-pytorch-plain",
+            "name": "Pytorch"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Image Super-Resolution",
+        "startDate": "2024",
+        "description": "In the Image Super-Resolution project, I compared FSRCNN, Bilinear Interpolation, and Nearest Neighbors techniques to enhance low-resolution images. FSRCNN outperformed the others, achieving a Peak Signal-to-Noise Ratio (PSNR) of 26.7, demonstrating its superiority in reconstructing high-quality images from pixelated sources. This study highlights my skills in applying advanced deep learning models to improve image analysis and quality.",
+        "images": [
+          "images/portfolio/imagesuperresolution/p1.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
+          },
+          {
+            "class": "devicon-keras-plain",
+            "name": "Keras"
+          },
+          {
+            "class": "devicon-flask-plain",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Frame Rate Enhancement",
+        "startDate": "2024",
+        "description": "This research project involved enhancing the frame rate of videos using Generative Adversarial Networks (GANs). By training on the UCF-101 dataset, my approach generated high-quality intermediate frames to increase the frames per second (fps), resulting in smoother and more visually appealing videos. This method has applications in various fields such as entertainment, surveillance, and virtual reality, and demonstrates significant improvements over traditional interpolation techniques.",
+        "images": [
+          "images/portfolio/frameinterpolation/p1.png",
+          "images/portfolio/frameinterpolation/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-numpy-plain",
+            "name": "Numpy"
+          },
+          {
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
+          },
+          {
+            "class": "devicon-keras-plain",
+            "name": "keras"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "San Jose State University",
+        "title": "IT Student Assistant",
+        "years": "June 2023 - May 2024",
+        "mainTech": [
+          "Web Development"
+        ],
+        "technologies": [
+          "REST API",
+          "ReactJS",
+          "JavaScript",
+          "TailwindCSS"
+        ],
+        "responsibilities": [
+          "Formulated registration forms for university events utilizing HTML, CSS, and JavaScript, integrating validation algorithms, lead to 25% improvement in workshop sign-ups.",
+          "Incorporated YouCanBook.me into the university's advising system, leading to 40% increase in automated appointment bookings.",
+          "Redesigned front-end interface of ISSS website using Tailwind CSS and React.js, 35% increase in user engagement."
+        ]
+      },
+      {
+        "company": "Accenture",
+        "title": "Full Stack Software Engineer",
+        "years": "August 2021 - July 2022",
+        "mainTech": [
+          "Full Stack Development"
+        ],
+        "technologies": [
+          "Java/J2EE",
+          "Spring Boot",
+          "MySQL",
+          "Splunk",
+          "Jenkins"
+        ],
+        "responsibilities": [
+          "Customized telecom platform using Java, Spring Boot Framework, and JSP, collaborating with team to optimize version control through Git and CI/CD pipeline with Jenkins, and Splunk for monitoring, reducing downtime by 20%.",
+          "Achieved a 30% decrease in customer complaints by maintaining an E-Commerce Application with Java Elastic Path and Microservices, including RESTful APIs.",
+          "Revamped Solr API search architecture and reduced time taken for Product page to load from 400ms to 60ms by integrating Cache, executing Thunder and JMeter tests."
+        ]
+      },
+      {
+        "company": "Spade EMS",
+        "title": "Web Developer",
+        "years": "June 2023 - July 2024",
+        "mainTech": [
+          "Web Development"
+        ],
+        "technologies": [
+          "JavaScript",
+          "React",
+          "Redux",
+          "JWT",
+          "OAuth",
+          "Jest"
+        ],
+        "responsibilities": [
+          "Leveraged JavaScript, React & Redux and TailwindCSS to develop interactive features, event calendars, increased participation by 25% and 15% rise in event sign-ups.",
+          "Implemented version control using Git, reducing deployment errors by 18%, facilitating seamless collaboration among teammates.",
+          "Designed and implemented user authentication and authorization using JWT and OAuth, ensuring secure access.",
+          "Conducted comprehensive unit and integration tests using Jest, reducing post deployment bugs by 30%."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "company": "San Jose State University",
+        "title": "Master of Science, Computer Science",
+        "years": "August 2022 - May 2024",
+        "mainTech": [
+          "Web Development"
+        ],
+        "description": "I graduated in May 2024 with a GPA of 3.7/4.0. My time at San Jose State was marked by deep engagement with advanced computational concepts and methodologies, enhancing my analytical and problem-solving skills, preparing me for a successful career in the technology sector.",
+        "technologies": [
+          "Design & Analysis of Algorithms",
+          "Database System Principles",
+          "Topics in AI",
+          "Machine Leanring",
+          "NLP"
+        ],
+        "responsibilities": [
+          "Formulated registration forms for university events utilizing HTML, CSS, and JavaScript, integrating validation algorithms, lead to 25% improvement in workshop sign-ups.",
+          "Incorporated YouCanBook.me into the university's advising system, leading to 40% increase in automated appointment bookings.",
+          "Redesigned front-end interface of ISSS website using Tailwind CSS and React.js, 35% increase in user engagement."
+        ]
+      },
+      {
+        "company": "Osmania University",
+        "title": "Bachelor of Science, Computer Science",
+        "years": "July 2017 - May 2021",
+        "mainTech": [
+          "Full Stack Development"
+        ],
+        "description": "I earned my Bachelor's in May 2021 with a GPA of 3.6/4.0. My undergraduate education helped me develop a strong foundation in computer science principles, along with critical thinking and technical proficiency, which were crucial for my advanced studies and professional development.",
+        "technologies": [
+          "Object Oriented Programming",
+          "Data Structures & Algorithms",
+          "Data Science",
+          "Cloud Computing"
+        ],
+        "responsibilities": [
+          "Customized telecom platform using Java, Spring Boot Framework, and JSP, collaborating with team to optimize version control through Git and CI/CD pipeline with Jenkins, and Splunk for monitoring, reducing downtime by 20%.",
+          "Achieved a 30% decrease in customer complaints by maintaining an E-Commerce Application with Java Elastic Path and Microservices, including RESTful APIs.",
+          "Revamped Solr API search architecture and reduced time taken for Product page to load from 400ms to 60ms by integrating Cache, executing Thunder and JMeter tests."
+        ]
+      }
+    ],
+    "expertise": [
+      {
+        "title": "Frontend Development",
+        "description": "I specialize in building intuitive and responsive user interfaces with ReactJS, Angular, and Vue.js, leveraging HTML, CSS, JavaScript, Tailwind CSS, and MaterialUI for enhanced design and user experience."
+      },
+      {
+        "title": "Backend Development",
+        "description": "I excel in creating scalable server-side applications using Java, Spring Boot, and Node.js, developing RESTful APIs, implementing microservices, and optimizing databases with MySQL, PostgreSQL, and MongoDB."
+      },
+      {
+        "title": "Machine Learning",
+        "description": "I have a strong foundation in machine learning, with expertise in using TensorFlow and PyTorch for image processing, feature extraction, and deploying neural networks for tasks like classification and superresolution."
+      }
+    ]
+  }
