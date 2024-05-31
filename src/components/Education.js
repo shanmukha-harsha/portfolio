@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import Badge from "react-bootstrap/Badge";
+// import Badge from "react-bootstrap/Badge";
 
 class Education extends Component {
   constructor(props) {
@@ -37,15 +37,15 @@ class Education extends Component {
     };
 
     // Style for the main technology badges
-    const mainTechStyle = {
-      fontSize: "18px",
-      backgroundColor: "#ddd",
-      borderRadius: "10px",
-      padding: "5px 10px",
-      margin: "2px 5px",
-      display: "inline-block",
-      textAlign: "center",
-    };
+    // const mainTechStyle = {
+    //   fontSize: "18px",
+    //   backgroundColor: "#ddd",
+    //   borderRadius: "10px",
+    //   padding: "5px 10px",
+    //   margin: "2px 5px",
+    //   display: "inline-block",
+    //   textAlign: "center",
+    // };
 
     // Style for the specific 'tech' badges within the div
     const techStyle = {
@@ -84,18 +84,18 @@ class Education extends Component {
     if (this.props.resumeEducation && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.education;
       var work = this.props.resumeEducation.map((work, i) => {
-        const { technologies, mainTech } = work;
+        const { technologies } = work;
 
-        var mainTechBadges = mainTech.map((technology, i) => (
-          <Badge
-            pill
-            className="main-badge mr-2 mb-2 mt-4"
-            key={i}
-            style={mainTechStyle}
-          >
-            {technology}
-          </Badge>
-        ));
+        // var mainTechBadges = mainTech.map((technology, i) => (
+        //   <Badge
+        //     pill
+        //     className="main-badge mr-2 mb-2 mt-4"
+        //     key={i}
+        //     style={mainTechStyle}
+        //   >
+        //     {technology}
+        //   </Badge>
+        // ));
 
         var techDivs = technologies.map((technology, i) => (
           <div key={i} style={techStyle}>
