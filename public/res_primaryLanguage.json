@@ -186,21 +186,21 @@
     "experience": [
       {
         "company": "San Jose State University",
-        "title": "IT Student Assistant",
+        "title": "Peer Mentor - JAVA, iSucceed",
         "years": "June 2023 - May 2024",
         "mainTech": [
           "Web Development"
         ],
         "technologies": [
-          "REST API",
-          "ReactJS",
-          "JavaScript",
-          "TailwindCSS"
+          "Java",
+          "OOPS",
+          "Multithreading",
+          "Inheritance"
         ],
         "responsibilities": [
-          "Formulated registration forms for university events utilizing HTML, CSS, and JavaScript, integrating validation algorithms, lead to 25% improvement in workshop sign-ups.",
-          "Incorporated YouCanBook.me into the university's advising system, leading to 40% increase in automated appointment bookings.",
-          "Redesigned front-end interface of ISSS website using Tailwind CSS and React.js, 35% increase in user engagement."
+          "Assisted over 100 students with Java OOP principles, data structures, and Multithreading, improving coding proficiency.",
+          "Conducted weekly mentoring sessions, reinforcing topics such as Java Methods, Inheritance, Interfaces, Exception Handling, resulting in a 20% increase in student comprehension.",
+          "Facilitated practical learning experiences by helping students with over 15 hands-on programming assignments and projects, covering key areas like Graphics, and Stream I/O."
         ]
       },
       {
@@ -215,7 +215,8 @@
           "Spring Boot",
           "MySQL",
           "Splunk",
-          "Jenkins"
+          "Jenkins",
+          "Kafka"
         ],
         "responsibilities": [
           "Customized telecom platform using Java, Spring Boot Framework, and JSP, collaborating with team to optimize version control through Git and CI/CD pipeline with Jenkins, and Splunk for monitoring, reducing downtime by 20%.",
