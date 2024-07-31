@@ -186,21 +186,21 @@
     "experience": [
       {
         "company": "San Jose State University",
-        "title": "Peer Mentor - JAVA, iSucceed",
+        "title": "Student Assistant",
         "years": "June 2023 - May 2024",
         "mainTech": [
           "Web Development"
         ],
         "technologies": [
-          "Java",
-          "OOPS",
-          "Multithreading",
-          "Inheritance"
+          "JavaScript",
+          "React",
+          "OAuth",
+          "Tailwind"
         ],
         "responsibilities": [
-          "Assisted over 100 students with Java OOP principles, data structures, and Multithreading, improving coding proficiency.",
-          "Conducted weekly mentoring sessions, reinforcing topics such as Java Methods, Inheritance, Interfaces, Exception Handling, resulting in a 20% increase in student comprehension.",
-          "Facilitated practical learning experiences by helping students with over 15 hands-on programming assignments and projects, covering key areas like Graphics, and Stream I/O."
+          "Implemented Registration Forms and redesigned front-end interface of ISSS Website using JavaScript and React.",
+          "Incorporated YouCanBook.me into the university’s advising system, leading to an increase in automated appointments.",
+          "Advisory Board Member on the iSucceed Peer Mentor Program, mentored over 100 students on technical concepts."
         ]
       },
       {
@@ -227,7 +227,7 @@
       {
         "company": "Spade EMS",
         "title": "Web Developer",
-        "years": "June 2023 - July 2024",
+        "years": "June 2020 - August 2020",
         "mainTech": [
           "Web Development"
         ],
@@ -242,6 +242,7 @@
         "responsibilities": [
           "Leveraged JavaScript, React & Redux and TailwindCSS to develop interactive features, event calendars, increased participation by 25% and 15% rise in event sign-ups.",
           "Implemented version control using Git, reducing deployment errors by 18%, facilitating seamless collaboration among teammates.",
+          "Used PostgreSQL database to store event and guest structured information; stored media files in Amazon S3.",
           "Designed and implemented user authentication and authorization using JWT and OAuth, ensuring secure access.",
           "Conducted comprehensive unit and integration tests using Jest, reducing post deployment bugs by 30%."
         ]
